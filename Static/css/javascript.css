@@ -61,6 +61,14 @@ h3{
     padding: 4px;
     width: 95%;
 }
+h4 {
+    background-color: rgb(219, 219, 24);
+    color: black;
+    font-size: 18px;
+    margin: 2px auto;
+    padding: 4px;
+    width: 95%;
+}
 p {
     background: white;
     font-size: 16px;
@@ -130,12 +138,27 @@ li:hover {
     background: greenyellow;
     color: green;
 }
+button {
+    padding: 8px 4px;
+    margin: 0 0 0 8px;
+}
+.buttonlamp{
+        padding: 8px 4px;
+        margin: 0 0 20px 8px;
+        
+}
 img{
     margin:0;
     padding: 0 0 0 1px;
     border: 2px solid Black;
     width:30%;
     height: 50%;
+
+}
+.lamp {
+
+    width: 100px;
+    height: 150px;
 
 }
 .imgex{

@@ -42,9 +42,44 @@
         </div>
         <h3>javascript pode alterar o valores de atributos HTML</h3>
         <p class="mac" >Neste exemplo, o JavaScript altera o valor do <strong>src</strong> atributos (source) de uma &#10094;img &#10095; tag:</p>
-
-
-
+        <div>
+            <h3>Exemplo</h3>
+            <H4>A Lâmpada</H4>
+            <div>
+                <button class="buttonlamp" type="button" onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulbon.gif'">Turn on the light</button>
+                <img id="myimagem" class="lamp" src="../../Static/imgs/pic_bulboff.gif">
+                <button class="buttonlamp" type="button" onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulboff.gif'">Turn off the light</button>               
+            </div>
+        </div>
+        <h3>javascript pode alterar estilos HTML (CSS)</h3>
+        <p>Alterar o estilo de um elemento <strong>HTML</strong> é uma variante de alterar um atributo <strong>HTML</strong>:</p>
+        <div>
+            <h4>Exemplo</h4>
+            <div>
+                <h2>O que o JavaScript pode fazer?</h2>
+                <p id="demo">JavaScript pode alterar o estilo de um elemento HTML.</p>
+                <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click me</button>
+            </div>
+        </div>
+        <div>
+            <h4>Exemplo</h4>
+            <div>
+                <h2>O que o JavaScript pode fazer?</h2>
+                <p id="demo1">JavaScript pode ocutar elemento HTML.</p>
+                <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click me</button>
+            </div>
+        </div>
+        <h3>JavaScript pode mostrar elementos HTML</h3>
+        <p>A exibição de elementos <strong>HTML</strong> ocultos também pode ser feita alterando o <strong style="color: red;">display</strong> estilo:</p>
+        <div>
+            <h4>Exemplo</h4>
+            <div>
+                <h2>O que o JavaScript pode fazer?</h2>
+                <p>JavaScript pode mostrar elementos HTML ocultos.</p>                
+                <p id="demo2" style="display: none;">Ola JavaScript!.</p>
+                <button type="button" onclick="document.getElementById('demo2').style.display='block'">Click me</button>
+            </div>
+        </div>
     </section>
     <br>
     <footer>
