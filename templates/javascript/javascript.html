@@ -7,85 +7,110 @@
     <link rel="stylesheet" href="../../Static/css/javascript.css">
 </head>
 <body>
-    <header>
-        <h1>JAVASCRIPT</h1>
-        <div>
-            <nav>
-                <ul>
-                    <a href="../index.html"><li>HOME</li></a>
-                    <a href="../cursohtml.html"><li>HTML</li></a>
-                    <a href="../css/style.html"><li>CSS</li></a>
-                    <a href=""><li>PYTHON</li></a>
-                    <a href=""><li>JAVA</li></a>
-                    <a href=""><li>GIT & GITHUB</li></a>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <hr>
-    <br>
-    <section>
-        <h3>Introdução ao JavaScript</h3>
-        <h4>JavaScript pode alterar o conteúdo HTML</h4>
-        <p class="mac" >Um dos muitos métodos <b>JavaScript HTML</b> é <strong>getElementById()</strong>.</p>
-        <p>O exemplo abaixo "encontra" um elemento <strong>HTML</strong><br>
+<header>
+    <h1>JAVASCRIPT</h1>
+    <div>
+        <nav>
+            <ul>
+                <a href="../index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="../Html/cursohtml.html">
+                    <li>HTML</li>
+                </a>
+                <a href="../css/style.html">
+                    <li>CSS</li>
+                </a>
+                <a href="">
+                    <li>PYTHON</li>
+                </a>
+                <a href="">
+                    <li>JAVA</li>
+                </a>
+                <a href="">
+                    <li>GIT & GITHUB</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+</header>
+<hr>
+<br>
+<section>
+    <h3>Introdução ao JavaScript</h3>
+    <h4>JavaScript pode alterar o conteúdo HTML</h4>
+    <p class="mac">Um dos muitos métodos <b>JavaScript HTML</b> é <strong>getElementById()</strong>.</p>
+    <p>O exemplo abaixo "encontra" um elemento <strong>HTML</strong><br>
         (com id="demo") e altera o conteúdo do elemento (innerHTML) para "hello JavaScript":</p>
-        <div>
-            <h3>Exemplo</h3>
-            <div class="exempimg">
-                <img class="imgex" src="../../Static/imgs/javascript01.png" alt="">
-                <img class="imgex01" src="../../Static/imgs/javascript02.png" alt="">
-            </div>
+    <div>
+        <h3>Exemplo</h3>
+        <div class="exempimg">
+            <img class="imgex" src="../../Static/imgs/javascript01.png" alt="">
+            <img class="imgex01" src="../../Static/imgs/javascript02.png" alt="">
         </div>
+    </div>
+    <div>
+        <p>JavaScript aceita aspas duplas e simples:</p>
+    </div>
+    <h3>javascript pode alterar o valores de atributos HTML</h3>
+    <p class="mac">Neste exemplo, o JavaScript altera o valor do <strong>src</strong> atributos (source) de uma &#10094;img
+        &#10095; tag:</p>
+    <div>
+        <h3>Exemplo</h3>
+        <H4>A Lâmpada</H4>
         <div>
-            <p>JavaScript aceita aspas duplas e simples:</p>
+            <button class="buttonlamp" type="button"
+                    onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulbon.gif'">Turn on the
+                light
+            </button>
+            <img id="myimagem" class="lamp" src="../../Static/imgs/pic_bulboff.gif">
+            <button class="buttonlamp" type="button"
+                    onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulboff.gif'">Turn off the
+                light
+            </button>
         </div>
-        <h3>javascript pode alterar o valores de atributos HTML</h3>
-        <p class="mac" >Neste exemplo, o JavaScript altera o valor do <strong>src</strong> atributos (source) de uma &#10094;img &#10095; tag:</p>
+    </div>
+    <h3>javascript pode alterar estilos HTML (CSS)</h3>
+    <p>Alterar o estilo de um elemento <strong>HTML</strong> é uma variante de alterar um atributo <strong>HTML</strong>:
+    </p>
+    <div>
+        <h4>Exemplo</h4>
         <div>
-            <h3>Exemplo</h3>
-            <H4>A Lâmpada</H4>
-            <div>
-                <button class="buttonlamp" type="button" onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulbon.gif'">Turn on the light</button>
-                <img id="myimagem" class="lamp" src="../../Static/imgs/pic_bulboff.gif">
-                <button class="buttonlamp" type="button" onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulboff.gif'">Turn off the light</button>               
-            </div>
+            <h2>O que o JavaScript pode fazer?</h2>
+            <p id="demo">JavaScript pode alterar o estilo de um elemento HTML.</p>
+            <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click me</button>
         </div>
-        <h3>javascript pode alterar estilos HTML (CSS)</h3>
-        <p>Alterar o estilo de um elemento <strong>HTML</strong> é uma variante de alterar um atributo <strong>HTML</strong>:</p>
+    </div>
+    <div>
+        <h4>Exemplo</h4>
         <div>
-            <h4>Exemplo</h4>
-            <div>
-                <h2>O que o JavaScript pode fazer?</h2>
-                <p id="demo">JavaScript pode alterar o estilo de um elemento HTML.</p>
-                <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click me</button>
-            </div>
+            <h2>O que o JavaScript pode fazer?</h2>
+            <p id="demo1">JavaScript pode ocutar elemento HTML.</p>
+            <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click me</button>
         </div>
+    </div>
+    <h3>JavaScript pode mostrar elementos HTML</h3>
+    <p>A exibição de elementos <strong>HTML</strong> ocultos também pode ser feita alterando o <strong
+            style="color: red;">display</strong> estilo:</p>
+    <div>
+        <h4>Exemplo</h4>
         <div>
-            <h4>Exemplo</h4>
-            <div>
-                <h2>O que o JavaScript pode fazer?</h2>
-                <p id="demo1">JavaScript pode ocutar elemento HTML.</p>
-                <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click me</button>
-            </div>
+            <h2>O que o JavaScript pode fazer?</h2>
+            <p>JavaScript pode mostrar elementos HTML ocultos.</p>
+            <p id="demo2" style="display: none;">Ola JavaScript!.</p>
+            <button type="button" onclick="document.getElementById('demo2').style.display='block'">Click me</button>
         </div>
-        <h3>JavaScript pode mostrar elementos HTML</h3>
-        <p>A exibição de elementos <strong>HTML</strong> ocultos também pode ser feita alterando o <strong style="color: red;">display</strong> estilo:</p>
-        <div>
-            <h4>Exemplo</h4>
-            <div>
-                <h2>O que o JavaScript pode fazer?</h2>
-                <p>JavaScript pode mostrar elementos HTML ocultos.</p>                
-                <p id="demo2" style="display: none;">Ola JavaScript!.</p>
-                <button type="button" onclick="document.getElementById('demo2').style.display='block'">Click me</button>
-            </div>
-        </div>
-    </section>
-    <br>
-    <div class="box1"><a class="buttonnext">Proximo</a></div>
-    <footer>
-        <H4>Aprendendo javascript</H4>
-    </footer>
-    
+    </div>
+</section>
+<br>
+<div class="box1">
+    <a href="../index.html" class="buttonback">&#10094; Home</a>
+    <a href="javascript01.html" class="buttonnext">Proximo &#10095;</a>
+
+</div>
+<footer>
+    <H4>Aprendendo javascript</H4>
+</footer>
+
 </body>
 </html>

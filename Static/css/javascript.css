@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0px;
-    border: 1px solid black;
+    border: 1px;
 }
 body {
     background:rgb(165, 253, 203);
@@ -149,14 +149,28 @@ button {
     margin: 0 0 0 8px;
 }
 .buttonlamp{
-        padding: 8px 4px;
-        margin: 0 0 20px 8px;
+    padding: 8px 4px;
+    margin: 0 0 20px 8px;
         
+}
+.buttonback{
+    background:rgb(219, 219, 24);
+    margin-right:auto;
+    padding: 16px 12px;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
 }
 .buttonnext{
     background:rgb(219, 219, 24);
     margin-left:auto;
     padding: 16px 12px;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+
 }
 img{
     margin:0;
