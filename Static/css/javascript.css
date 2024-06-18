@@ -101,6 +101,12 @@ div li{
 div img{
     margin: 5px;
 }
+.box1{
+    margin: 2px auto;
+    display: flex;
+    padding: 22px 18px;
+    width: 93%;
+}
 .exempimg{
     display: flex;
     
@@ -146,6 +152,11 @@ button {
         padding: 8px 4px;
         margin: 0 0 20px 8px;
         
+}
+.buttonnext{
+    background:rgb(219, 219, 24);
+    margin-left:auto;
+    padding: 16px 12px;
 }
 img{
     margin:0;
