@@ -60,12 +60,12 @@
         <H4>A Lâmpada</H4>
         <div>
             <button class="buttonlamp" type="button"
-                    onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulbon.gif'">Turn on the
+                    onclick="onLight()">Turn on the
                 light
             </button>
             <img id="myimagem" class="lamp" src="../../Static/imgs/pic_bulboff.gif">
             <button class="buttonlamp" type="button"
-                    onclick="document.getElementById('myimagem').src='../../Static/imgs/pic_bulboff.gif'">Turn off the
+                    onclick="offLight()">Turn off the
                 light
             </button>
         </div>
@@ -78,7 +78,7 @@
         <div>
             <h2>O que o JavaScript pode fazer?</h2>
             <p id="demo">JavaScript pode alterar o estilo de um elemento HTML.</p>
-            <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click me</button>
+            <button type="button" onclick="fontSize()">Click me</button>
         </div>
     </div>
     <div>
@@ -86,7 +86,7 @@
         <div>
             <h2>O que o JavaScript pode fazer?</h2>
             <p id="demo1">JavaScript pode ocutar elemento HTML.</p>
-            <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click me</button>
+            <button type="button" onclick="displayZero()">Click me</button>
         </div>
     </div>
     <h3>JavaScript pode mostrar elementos HTML</h3>
@@ -98,7 +98,7 @@
             <h2>O que o JavaScript pode fazer?</h2>
             <p>JavaScript pode mostrar elementos HTML ocultos.</p>
             <p id="demo2" style="display: none;">Ola JavaScript!.</p>
-            <button type="button" onclick="document.getElementById('demo2').style.display='block'">Click me</button>
+            <button type="button" onclick="displayOn()">Click me</button>
         </div>
     </div>
 </section>
@@ -108,6 +108,7 @@
     <a href="javascript01.html" class="buttonnext">Proximo &#10095;</a>
 
 </div>
+<script src="../../Static/script/javascript.js"></script>
 <footer>
     <H4>Aprendendo javascript</H4>
 </footer>
