@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVASCRIPT</title>
     <link rel="stylesheet" href="../../Static/css/javascript.css">
+    <script>
+        function myFunction() {
+            document.getElementById('demo4').innerHTML = "Paragrafo changed."
+        }
+    </script>
+
+
 </head>
 <body>
 <header>
+    <!---Javascript01--->
     <h1>JAVASCRIPT</h1>
     <div>
         <nav>
@@ -36,12 +44,52 @@
 </header>
 <hr>
 <br>
+<h2>JavaScript para onde</h2>
+<h3>A tag &#10094; script &#10095;</h3>
+<p>Em <strong>HTML</strong>, o código <strong>JavaScript</strong> é inserido entre as tag <strong style="color: red;">&#10094; script &#10095;</strong> e <strong style="color: red;">&#10094; /script &#10095;</strong> .</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <h2>JavaScript no corpo</h2>
+        <p id="demo3"></p>
+    </div>
+</div>
+<h3>Funções e eventos JavaScript</h3>
+<p>Um JavaScript <strong style="color: red;">function</strong> é um bloco de código <strong>JavaScript</strong>, que pode ser executado quando "chamado".</p>
+<p>Por exemplo, uma função pode ser chamada quando ocorre um <strong>evento</strong>, como quando o usuário clica em um botão.</p>
 
+<h3>JavaScript em &#10094; head &#10095; ou &#10094; body &#10095; </h3>
+<p>Você pode colocar qualquer número de scripts em um documento <strong>HTML</strong>.</p>
+<p>Os scripts podem ser colocados na seção <strong>&#10094; body &#10095;</strong>, ou na <strong>&#10094; head &#10095;</strong> seção de uma página <strong>HTML</strong>, ou em ambos.</p><br>
+<p>A funcão é invocada (chamada) quando um botão é clicado:</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <h2>Demo JavaScript in Head</h2>
+
+        <p id="demo4" >A parágrafo</p>
+        <button type="button" onclick="myFunction()">Try in</button>
+
+    </div>
+</div>
+<h3>JavaScript externo</h3>
+<p>Os scriptd também podem ser colocados em arquivos externos:</p>
+<div>
+    <h4>Arquivo externo: myScript.js</h4>
+    <div>
+        <strong>function</strong> myFunction() {<br>
+            document.getElementById('demo').innerHTML = "Troca de Parágrafo"<br>        
+        }
+    </div>
+</div>
 <div class="box1">
     <a href="javascript.html" class="buttonback">&#10094; Anterior</a>
     <a href="javascript02.html" class="buttonnext">Proximo &#10095;</a>
 
 </div>
+<script>
+    document.getElementById('demo3').innerHTML = "Meu primeiro JavaScript"
+</script>
 <footer>
     <H4>Aprendendo javascript</H4>
 </footer>
