@@ -78,6 +78,74 @@
 <p>Scripts externos são práticos quando o mesmo código é usado em muitas páginas Web diferentes.</p>
 <p>Os arquivos JavaScript têm a extensão de arquivo <strong>.js</strong>.</p>
 <p class="mac">Para usar um script externo, coloque o nome do arquivo de script no <strong>src</strong> atributo (Source) de uma <strong>&#10094;script&#10095;</strong> tag:</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <p class="mac"><strong>&#10094; script src = 'myScript.js ' &#10095;&#10094;/script &#10095;</strong></p>
+    </div>
+</div>
+<p class='mac' >Você pode colocar uma referência de script externo <strong>&#10094;Head&#10095;</strong> ou <strong>&#10094;Head&#10095;</strong> como desejar.</p>
+<p class="mac"> O script se comportará como se estivesse localizado exatamente onde a <strong>&#10094;script &#10095;</strong> tag está localizada.</p>
+<div>
+    <p class="mac">Os Scripts externos não podem conter <strong>&#10094;script &#10095;</strong> tags </p>
+</div>
+<h3>Vantagens externas do JavaScript</h3>
+<p>Colocar scripts em arquivos externos tem algumas vantagens:</p>
+<div>
+    <ul>
+        <li>Ele separa HTML e código</li>
+        <li>Torna HTML e JavaScript mais fáceis de ler e manter</li>
+        <li>Arquivos JavaScript armazenados em cache podem acelerar o carrgamento da página</li>
+    </ul>
+</div>
+<p>Para adicionar vários arquivos de script a uma página - use várias tags de script</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <br>
+        <p> &#10094;script src="myScript1.js"&#10095; &#10094; /script &#10095;<br>
+            &#10094; script src="myScript2.js"&#10095; &#10094;/script &#10095;</p>
+    </div>
+</div>
+<h3>Referências Externas</h3>
+<p>Um script externo pode ser referênciado de três maneiras diferentes:</p>
+<div>
+    <ul>
+        <li>Com um URL completo (um endereçoda Web completo)</li>
+        <li>Com um caminho de arquivo (como /js/)</li>
+        <li>Sem nehum caminho</li>
+    </ul>
+</div>
+<p>Este exemplo usa um <strong>URL completo</strong>para vincular myScript.js: </p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <p>&#10094; script src="https://www.w3schools.com/js/myScript.js"&#10095; &#10094;/script&#10095</p>
+    </div>
+</div>
+<p>Este exemplo usa um caminho de arquivo para vincular a myScript.js:</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <p>&#10094; script  src="/js/myScript.js" &#10095;&#10094;/script&#10095;</p>
+    </div>
+</div>
+<p>Este exemplo não usa nenhum caminho para vincular ao myScript.js:</p>
+<div>
+    <h3>Exemplo</h3>
+    <div>
+        <p>&#10094; script  src="myScript.js" &#10095;&#10094;/script&#10095;</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 <div class="box1">
     <a href="javascript.html" class="buttonback">&#10094; Anterior</a>
     <a href="javascript02.html" class="buttonnext">Proximo &#10095;</a>
